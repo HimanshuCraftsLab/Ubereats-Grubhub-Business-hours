@@ -8,10 +8,6 @@ This project compares the business hours of virtual kitchens listed on UberEats 
 - Compares time windows and identifies mismatches between the platforms.
 - Reports time ranges that are in sync or out of range with up to a 5-minute difference.
 
-## Steps to Use
-1. Clone the repository.
-2. Run the SQL queries in Google BigQuery.
-3. View the result showing business hours mismatches for virtual restaurants on UberEats and Grubhub.
 
 ## SQL Breakdown
 - **Step 1**: Define a UDF to extract regular hours from UberEats.
